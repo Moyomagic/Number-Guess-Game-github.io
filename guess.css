@@ -1,0 +1,45 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+html {
+  scroll-behavior: smooth;
+}
+* {
+  
+  box-sizing: border-box;
+  scroll-behavior: smooth;}
+  body{width:100%;
+  }
+  .container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #fbe0e5;
+    padding:50px;
+    height: 100vh
+  }
+  h3{
+    font-size: 24px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .outputtext{
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  form{
+    margin-top: 30px;
+  }
+  button{
+    width:60px;
+    background-color: #38d9a9;
+  }
+  button:hover{
+    cursor: pointer;
+    scale: 1.2;
+  }
